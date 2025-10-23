@@ -28,7 +28,9 @@ public class Komisi23 {
                 komisi = 0.01;
             } else if (omset >= 50_000_000 && omset <= 100_000_000){
                 komisi = 0.02;
-            } 
+            } else {
+                komisi = 0;
+            }
 
             if (rating >= 90) {
                 komisi += 0.01;
