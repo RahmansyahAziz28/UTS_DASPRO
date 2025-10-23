@@ -22,7 +22,7 @@ public class bilanganTerkecil23 {
 
         int nilaiSama = 0;
 
-        String angkaTerbesar = "";
+        String angkaTerkecil = "";
 
         if (terkecil == pertama) {
             nilaiSama++;
@@ -39,7 +39,7 @@ public class bilanganTerkecil23 {
 
         if (nilaiSama > 1) {
             System.out.println("Ada angka terkecil yang sama dengan nilai\t: " + terkecil);
-            System.out.println("Angka tersebut adalah\t\t\t\t: " + angkaTerbesar);
+            System.out.println("Angka tersebut adalah\t\t\t\t: " + angkaTerkecil);
         } else {
             System.out.println("Bilangan terkecil adalah\t\t\t\t: " + terkecil);
         }
